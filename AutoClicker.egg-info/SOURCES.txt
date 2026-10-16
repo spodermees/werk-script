@@ -1,0 +1,6 @@
+README.md
+setup.py
+AutoClicker.egg-info/PKG-INFO
+AutoClicker.egg-info/SOURCES.txt
+AutoClicker.egg-info/dependency_links.txt
+AutoClicker.egg-info/top_level.txt

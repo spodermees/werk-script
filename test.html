@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1> test site</h1>
+
+    <input type="checkbox" id="myCheckbox">
+    <label for="myCheckbox">Check me</label>
+    <button id="myButton">Click me</button>
+    <input type="submit" value="Submit">
+    <p>Button clicked <span id="clickCount">0</span> times.</p>
+</body>
+<script>
+    let count = 0;
+    document.getElementById("myButton").addEventListener("click", function() {
+        count++;
+        document.getElementById("clickCount").textContent = count;
+    });
+</script>
+</html>
